@@ -1,0 +1,137 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1em;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 30px 100px;
+}
+
+.news_wrap {
+	display: flex;
+	gap: 70px;
+	justify-content: space-between;
+}
+
+.news_wrap .news {
+	width: calc(100% - 400px);
+}
+
+.news_wrap .news .news_title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_wrap .news .news_title h3 {
+	font-size: 1em;
+}
+
+.news_wrap .news .news_title a {
+	font-size: 0.875em;
+	color: #444;
+}
+
+.news_wrap .news ul {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.news_wrap .news ul li {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_wrap .news ul li a {
+	font-size: 0.925em;
+}
+
+.news_wrap .news ul li span {
+	color: #444;
+	font-size: 0.9em;
+}
+
+.news_wrap .category ul {
+	display: flex;
+	max-width: 330px;
+	flex-wrap: wrap;
+}
+
+.news_wrap .category a {
+	display: block;
+	line-height: 50px;
+	font-size: 0.85em;
+	width: 160px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.news_wrap .category li:nth-child(1) a {
+	border-top: 1px solid #ccc;
+	border-top-left-radius: 12px;
+}
+
+.news_wrap .category li:nth-child(2) a {
+	border-top: 1px solid #ccc;
+	border-top-right-radius: 12px;
+}
+
+.news_wrap .category li:nth-child(1) a,
+.news_wrap .category li:nth-child(3) a,
+.news_wrap .category li:nth-child(5) a {
+	border-left: 1px solid #ccc;
+}
+
+.news_wrap .category li:nth-child(5) a {
+	border-bottom-left-radius: 12px;
+}
+
+.news_wrap .category li:nth-child(6) a {
+	border-bottom-right-radius: 12px;
+}
+
+.banner {
+	padding-top: 40px;
+	padding: 40px 100px 0 100px;
+}
+
+.banner ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.loading {
+	width: 50px;
+	height: 50px;
+}
