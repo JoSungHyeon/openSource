@@ -8,7 +8,7 @@
 
 ### OPEN SOURCE 3 : Mobile GNB
 
-### OPEN SOURCE 4 : ITEM LIST
+### OPEN SOURCE 4 : Item List
 
 ### OPEN SOURCE 5 : Image Slide
 
